@@ -23,10 +23,18 @@ Dataset is from Kaggle: [krishnavamsis/nike-sales](https://www.kaggle.com/datase
 ## Tools Used
 
 - **Excel** – first pass at profiling the data, checking it manually, building some quick pivot tables
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – the actual cleaning and analysis, plus the charts
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – the actual cleaning and analysis, plus the charts, run in Google Colab
 - **GitHub** – putting it all together
 
 I'd originally planned to add a Power BI dashboard too. Didn't end up happening, more on that under Limitations.
+
+## Files in This Repo
+
+- `nike_sales_raw.csv` – the original dataset from Kaggle
+- `nike_sales_cleaned.csv` – cleaned version exported from the Python notebook
+- `nike_sales_analysis.ipynb` – the full analysis notebook
+- `nike_sales_data_validation.xlsx` – Excel profiling and validation work
+- chart PNGs – exported visuals from the notebook
 
 ## Analytical Approach
 
